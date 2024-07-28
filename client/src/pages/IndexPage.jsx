@@ -25,7 +25,7 @@ export default function IndexPage() {
           </button>
         </div>
         
-        <Link to={'/login'} className="flex gap-2 border border-black-400 rounded py-2 pl-5 pr-4 mr-2 shadow-lg items-center">
+        <div className="flex gap-2 border border-black-400 rounded py-2 pl-5 pr-4 mr-2 shadow-lg items-center">
           <div className="pt-1 pl-0 pr-2">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor"   
             className="size-8">
@@ -38,7 +38,7 @@ export default function IndexPage() {
     </svg>
     
           </div>
-        </Link>
+        </div>
         
         </header>
         </div>
