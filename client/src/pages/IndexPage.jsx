@@ -3,8 +3,8 @@ import Header from '../Header';
 
 export default function IndexPage() {
     return (
-        <div>
-          <Header />
+        <div className="p-4">
+          index page here
         </div>
     )
 }
